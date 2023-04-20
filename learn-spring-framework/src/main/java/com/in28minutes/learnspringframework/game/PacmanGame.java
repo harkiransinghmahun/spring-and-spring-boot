@@ -1,6 +1,6 @@
 package com.in28minutes.learnspringframework.game;
 
-public class SuperContraGame implements GamingConsole {
+public class PacmanGame implements GamingConsole {
 	
 	public void up() {
 		System.out.println("Go up");
@@ -11,11 +11,10 @@ public class SuperContraGame implements GamingConsole {
 	}
 	
 	public void left() {
-		System.out.println("Go back");
+		System.out.println("Go left");
 	}
 	
 	public void right() {
-		System.out.println("Shoot a bullet");
+		System.out.println("Go right");
 	}
-	
 }

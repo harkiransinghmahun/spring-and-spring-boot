@@ -1,9 +1,9 @@
 package com.in28minutes.learnspringframework.game;
 
 public class GameRunner {
-	private SuperContraGame game; // Tightly coupled. The game runner class would have to make changes  
+	private GamingConsole game; // Tightly coupled. The game runner class would have to make changes  
 	
-	public GameRunner(SuperContraGame game) {
+	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 
